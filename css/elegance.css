@@ -1,0 +1,492 @@
+.body
+{
+	width : 100%;
+}
+.header
+{
+	display : block;
+	background-color : #FFF601;
+	height : 100px;
+	position : fixed;
+	top : 0px;
+	width : 100%;
+
+}
+.container
+{
+	width : 60%;
+	margin-left : auto;
+	margin-right : auto;
+	height : 100px;
+}
+.container p
+{
+	font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	width: 100%;
+}
+#logo
+{
+	display : inline-flex;
+	float : left;
+	list-style : none;
+	padding-left : 0%;
+	margin-top: 3.5%;
+}
+#menu
+{
+	display : inline-flex;
+	float : right;
+	list-style : none;
+	padding-right : 0%;
+	margin-top : 4%;
+}
+.logoStyle
+{
+	list-style: none;
+	padding: 10px;
+	color: black;
+	font-family: System;
+	font-size:20px;
+	font-style : bold;
+	text-decoration : none;
+	list-style-type: none;
+	text-align : center;
+	margin-top : 0px;
+
+}
+.navItem {
+
+	list-style: none;
+	padding: 10px;
+	color: black;
+	font-family: Segoe UI;
+	font-size:12px;
+	font-style : bold;
+	text-decoration : none;
+	list-style-type: none;
+	text-align : center;
+	line-height : 250%;
+}
+.navItem:hover
+{
+	color : #AF0000;
+	text-decoration : underline;
+}
+.Content{
+	padding-top : 90px;
+	background-color:#E7E7E7;
+}
+
+.FirstFloor
+{
+
+	background-color:#E7E7E7;
+}
+.previous
+{
+	margin-top: 20%;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right:20px solid black;
+}
+.slider
+{
+	display: flex;
+	width: 95%;height: 100%;
+	margin: 3px;
+
+}
+.next
+{
+	margin-top: 20%;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 20px solid black;
+	/*top: 2pt;
+	width: 0.4em;
+	height: 0.4em;
+	border-right: 0.2em solid black;
+	border-top: 0.2em solid black;
+	transform: rotate(45deg);*/
+}
+#btnSeeWork
+{
+	position:absolute;
+	margin-top:-23px;
+	margin-left: 41%;
+	text-align : center;
+	text-decoration : none;
+	font-family : Calibri;
+	font-size : 12px;
+	color: #FFF601;
+	padding : 15px;
+	padding-left : 60px;
+	padding-right : 60px;
+	background-color :#000000;
+	border-radius : 5px 5px 5px 5px;
+}
+#btnSeeWork:hover
+{
+	background-color : #3e3e3e;
+	color : #e2e2e2;
+}
+.SecondFloor
+{
+
+	background-color:#6B6B6B;
+	font-family : Arial;
+	text-align: left;
+
+}
+.ThirdFloor
+{
+
+	background-color:#E7E7E7;
+	height : inherit;
+
+}
+.FourthFloor
+{
+	background: #1f1f1f;
+  padding: 1em 0;
+  border-top: 10px solid #fff600;
+}
+.FifthFloor{
+	background-color:#3c3c3c;
+}
+
+.panel1
+{
+	display : flex;
+	width : 60%;
+	margin-left : auto;
+	margin-right : auto;
+	min-height : 100px;
+}
+.panel2
+{
+  display: flex;
+	width : 60%;
+	min-height : 10px;
+	height : inherit;
+	margin-left : auto;
+	margin-right : auto;
+
+}
+.panel2col
+{
+	margin-top : 5%;
+	margin-bottom : 5%;
+	width :25%;
+	padding : 10px;
+	text-align : left;
+	font-size : 80%;
+
+}
+.SecondFloor p
+{
+	display : block;
+	font-size : 1em;
+	padding-left : 0px;
+	color : #E7E7E7;
+}
+.logo
+{
+	width : 90%;
+	vertical-align : top;
+	display : block;
+	text-align : left;
+	line-height : 280%;
+	color:#FFF601;
+	font-size: .85vw;
+	margin: 0 !important;
+	/*<img align="left" src="https://some.addres/blue-user-icon.png" border="0">
+
+	<div style="display:block;text-align:left"><a href="https://some.addres" imageanchor="1">
+	<img align="left" src="https://some.addres/blue-user-icon.png" border="0"></a>- Name<br>
+
+	website : https://w3layouts.com/preview/?l=/elegance-media-a-entertainment-category-flat-bootstrap-responsive-web-template/
+	*/
+}
+
+
+.panel3
+{
+	width : 60%;
+	height : inherit;
+  display: flex;
+	margin-left : auto;
+	margin-right : auto;
+	font-size: small;
+}
+.panel3col
+{	margin-top : 5%;
+	margin-bottom : 5%;
+	width :33%;
+	height : inherit;
+	padding : 10px;
+	text-align : center;
+
+}
+
+.ThirdFloor p
+{
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 400;
+		color: #50504f;
+		font-family :"Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+		text-align: left;
+}
+.ThirdFloor h3
+{
+	color: #0f0f10;
+	font-size: 1.7em;
+	font-weight: 400;
+	margin-bottom: 1em;
+	font-family :"Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	text-align: left;
+}
+.row{
+	margin: 1em 0;
+	padding: 0 0 1em;
+	border-bottom: 1px solid rgba(85, 85, 85, 0.13);
+}
+.ThirdFloor h5{
+	text-align: left;
+	font-size: 1em;
+	max-width: 100%;
+}
+.ThirdFloor h5 a{
+	color: #b72706;
+	margin-bottom: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+}
+.ThirdFloor h5 a:hover{
+	color: #090909;
+}
+.ThirdFloor h6{
+		color: #50504f;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+    font-weight: 400;
+		text-align: left;
+}
+.our{
+	margin: 1em 0;
+}
+
+.container4
+{
+	width : 60%;
+	height : inherit;
+  display: flex;
+	margin-left : auto;
+	margin-right : auto;
+
+}
+.panel5
+{
+	width : 60%;
+	height : inherit;
+  display: flex;
+	margin-left : auto;
+	margin-right : auto;
+}
+.panel5col
+{
+	width :50%;
+	height : inherit;
+	padding : 10px;
+	color : white;
+	border-color : white;
+	text-align : left;
+	font-family: "Open Sans" sans-serif;
+}
+.leftcol{
+	display: flex;
+	width: 50%;
+	/*position: relative;*/
+  min-height: 1px;
+	margin-top: 2%;
+	border-color : white;
+}
+.FourthFloor h5{
+	color: #f1f1f1;
+	font-size: .9em;
+	vertical-align: middle;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.FourthFloor li{
+	display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.5em;
+	text-align: 250%;
+}
+.stay-left{
+	float: left;
+	width: 71%;
+	margin-right: 0.5%;
+}
+.form{
+	display: block;
+	margin-top: 0em;
+}
+.buttonSearch{
+	float: left;
+  width: 28.5%;
+}
+.buttonSearch form input{
+	background: #fff600;
+	padding: .3em;
+	color: #010100;
+	font-size: 1em;
+	font-weight: 200;
+	display: block;
+	outline: none;
+	border: none;
+	width: 100%;
+	border-radius: 0px 5px 5px 0px;
+}
+.stay form input[type="text"]
+{
+    width: 100%;
+    color: #898888;
+    outline: none;
+    font-size: 1em;
+    padding: .3em;
+    border: none;-webkit-appearance: none;
+	}
+	.buttonSearch form input[type="submit"]:hover
+	{
+	  background: #919175;
+	  color: #fff600;
+	}
+	input[type="submit"] {
+	    -webkit-appearance: button;
+	    cursor: pointer;
+	}
+	.ttt {
+	    float: left;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.FourthFloor h6
+	{
+	    color: #f1f1f1;
+	    font-size: 1em;
+	    vertical-align: middle;
+	    margin: 0;
+	    font-weight: 400;
+		font-size: small;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.FourthFloor span a {
+	    color: #fff600;
+	    text-decoration: none;
+	}
+	.rightcol{
+		display: flex;
+		width: 50%;
+		/*position: relative;*/
+	  min-height: 1px;
+		margin-top: 2%;
+		border-color : white;
+		margin-left: 8%;
+	}
+
+	.FifthFloor h3{
+	color: #ffffff;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-bottom: 1em;
+	font-size:medium;
+}
+.FifthFloor p{
+	color: #c0c0c0;
+	font-size: small;
+	font-weight: 400;
+	line-height: 1.8em;
+	margin: 5px;
+}
+.foot-nav ul{
+	padding: 0;
+	font-size: small;
+}
+.foot-nav li {
+    display: block;
+    margin: 0.4em 0;
+}
+.foot-nav li a {
+    color: #c0c0c0;
+    font-size: 1em;
+    text-transform: capitalize;
+		text-decoration:none;
+}
+
+.foot-nav li a:hover{
+	color: #fff600;
+}
+
+.social{
+	text-decoration: none !important;
+}
+.social-media ul{
+		display: flex;
+		padding-left: 0;
+}
+.social-media ul li{
+		display: flex;
+		padding: 0;
+		list-style : none;
+}
+.facebook{
+	width: 36px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+}
+.twitter{
+  width: 36px;
+  height: 30px;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;}
+.in{
+	width: 36px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+}
+.pp{
+	width: 36px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+}
+.goog{
+	width: 36px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.social:hover{
+  /*-webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);*/
+  
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
